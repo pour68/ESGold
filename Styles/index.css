@@ -625,6 +625,7 @@ a {
 .register__img {
   background-image: url(../Images/Depositphotos_78348384_XL.jpg);
   background-size: cover;
+  background-position: center;
   width: 50%;
   height: 80vh;
 }
@@ -632,6 +633,7 @@ a {
 .login__img {
   background-image: url(../Images/Depositphotos_78348594_XL.jpg);
   background-size: cover;
+  background-position: center;
   width: 50%;
   height: 65vh;
 }
@@ -1084,6 +1086,12 @@ input[type="radio"]:checked + label > img {
   .contact__img,
   .contact__content {
     width: 100%;
+  }
+
+  .register__img,
+  .login__img {
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 
   .register__content,
