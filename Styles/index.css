@@ -971,10 +971,6 @@ input[type="radio"]:checked + label > img {
   grid-template-columns: repeat(2, 1fr);
   column-gap: 1rem;
 }
-
-.payment__right {
-  padding: 0 1rem;
-}
 /* /payment */
 
 /* profile */
